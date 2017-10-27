@@ -2,6 +2,7 @@
 
 const Repo = require('./lib/repo');
 const cmd = require('./lib/cmd');
+const config = require('./lib/config');
 
 /**
  * 初始化一个仓库
@@ -23,3 +24,4 @@ let clone = function (root, url) {
 
 exports.init = init;
 exports.clone = clone;
+exports.config = config;
